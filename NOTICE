@@ -1,0 +1,27 @@
+gpt2-lora-int8
+==============
+
+This repository contains ORIGINAL work by Adrian Nagorka, Joel Håkansson, and
+Nicholas Lawrance: from-scratch PyTorch implementations of LoRA fine-tuning and
+post-training int8 weight-only quantisation, plus a self-contained demo, tests,
+and the experimental results from our DD2424 course project.
+
+Attribution and scope
+----------------------
+The experiments that produced the results reported here were run on top of the
+Stanford CS 224N "Default Final Project: Build GPT-2" starter codebase:
+
+    CS 224N Default Final Project: Build GPT-2 (Winter 2025)
+    https://web.stanford.edu/class/cs224n/
+
+That starter assignment is reused across course offerings. To avoid publishing a
+solution to it, this repository deliberately does NOT include the completed
+starter (the GPT-2 model, attention, optimizer, classifier, or task scripts).
+It publishes only our own extension modules and shows how they were integrated
+via short patch snippets (see docs/integration.md).
+
+Parts of the original course codebase derive from the HuggingFace `transformers`
+library (Apache License 2.0). None of that code is redistributed here.
+
+Datasets (SST, CFIMDB, Quora Question Pairs, Shakespeare sonnets) are NOT
+redistributed; see README.md for where to obtain them.

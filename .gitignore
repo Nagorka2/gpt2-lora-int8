@@ -1,0 +1,26 @@
+# Datasets — not redistributed (see README for download instructions)
+data/
+*.csv
+*.tsv
+
+# Model checkpoints / artifacts
+*.pt
+*.pkl
+*.bin
+*.safetensors
+out/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+*~

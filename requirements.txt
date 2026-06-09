@@ -1,0 +1,6 @@
+# Core runtime for the standalone modules, demo, and tests.
+torch>=2.0
+# Only needed if you wire the modules into a real GPT-2 (transformers-based)
+# pipeline; the demo and tests run without it.
+# transformers>=4.30
+pytest>=7.0
