@@ -10,7 +10,7 @@ the Stanford CS 224N "Build GPT-2" starter.
 It deliberately does **not** include the completed CS 224N starter (see
 [Attribution](#attribution--academic-integrity)).
 
-> Authors: **Adrian Nagorka**, **Joel Håkansson**, **Nicholas Lawrance**.
+> Authors: **Adrian Nagorka**, **Joel Håkansson**, **Nicholas Lawrence**.
 > Contribution breakdown in [CONTRIBUTORS.md](CONTRIBUTORS.md).
 
 ---
@@ -137,5 +137,4 @@ redistributed**. Obtain them from their original sources / the CS 224N starter.
 
 ## License
 
-[MIT](LICENSE) © 2026 Adrian Nagorka, Joel Håkansson, Nicholas Lawrance.
-"# gpt2-lora-int8" 
+[MIT](LICENSE) © 2026 Adrian Nagorka, Joel Håkansson, Nicholas Lawrence.
