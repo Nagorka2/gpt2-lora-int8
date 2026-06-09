@@ -2,7 +2,7 @@ gpt2-lora-int8
 ==============
 
 This repository contains ORIGINAL work by Adrian Nagorka, Joel Håkansson, and
-Nicholas Lawrance: from-scratch PyTorch implementations of LoRA fine-tuning and
+Nicholas Lawrence: from-scratch PyTorch implementations of LoRA fine-tuning and
 post-training int8 weight-only quantisation, plus a self-contained demo, tests,
 and the experimental results from our DD2424 course project.
 
